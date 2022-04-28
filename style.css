@@ -1,0 +1,72 @@
+.wish{
+  text-align: center;
+   position: relative;
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.image{
+    text-align: center;
+    height: 30%;
+    width: 100vw;
+}
+#icon{
+    margin-top:-20px;
+    width: 50px; 
+    cursor: pointer;
+  }
+.button{
+    width: 100vw;
+    text-align: center;
+    margin-right: 20%;
+    padding-top: -8;
+  }
+#click{
+  
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color:#130202;
+  }
+.heading {
+  height: 4%;
+  width: 100%;
+  background:#25060f;
+  font-family:cursive;
+  font-style: italic;
+  position:fixed;
+  
+}
+.heading h1{
+  margin-top: -2px;
+  position: relative;
+  color:aqua;
+  animation-name: animate;
+  animation-duration: 6s;
+  animation-delay: 2s;
+  animation-iteration-count: 10000;
+}
+@keyframes animate {
+  0% {left: 0px }
+	50%{ left: 35% }
+	100%{left: 0px;}
+  
+}
+.full{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right ,#fb5283,#ff3527);
+  display: inline-block;
+}
+.row{
+  display: inline;
+}
+.video{
+  margin-top: -20px;
+  text-align: center;
+}
+.video p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}

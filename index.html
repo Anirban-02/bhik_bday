@@ -1,0 +1,56 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Soubhik</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="full">
+  <div class="heading">
+    <h1>Happy Birthday Bhik</h1>
+  </div>
+  <div class="row">
+    <div class="wish">
+        <b><p font-family="'Dancing Script', sans-serif;">Hey BHIK,</p>
+            <p>“A wish for you on your birthday, whatever you ask may you receive, whatever you seek may you find, whatever you wish may it be fulfilled on your birthday and always. Happy birthday!</p>
+            <p>I will be always there with you in your side whenever you seek me. </p>
+            <p>Enjoy your Day !! Stay Blessed and Happy ..! Keep Smiling :)</p>
+            <p>From , Ban .</p></b>        
+    </div>
+    <div class="image">
+      <image src="bhik.jpg" width="150" height="266"></image>
+    </div>
+  </div>
+  <div class="button">
+    <p id="click">Click here to play/pause</p>
+    <img src="play.png" id="icon">
+  </div>
+  <audio id="song">
+    <source src="bday.mp3" type="audio/mp3">
+  </audio>
+    <div class="video">
+      <p>Now have a look at Last years video ..</p>
+      <a href="https://drive.google.com/file/d/17lw2rLA359LGwY41vMKq2RNnkGmTFf7i/view?usp=sharing"> Click here</a>
+    </div>
+    
+  </section>
+    
+    <script>
+      var mysong= document.getElementById("song");
+      var icon = document.getElementById("icon");
+      icon.onclick=function(){
+        if(mysong.paused){
+          mysong.play();
+          icon.src="pause.png"
+        }else{
+          mysong.pause();
+          icon.src="play.png"
+        }
+      }
+    </script>
+  
+       
+    
+    
+</body>
+</html>
